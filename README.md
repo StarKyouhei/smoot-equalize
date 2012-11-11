@@ -4,6 +4,7 @@
 <dd>
 <dt>HTML<dt>
 <ul>
+<li>文字コードはUTF-8</li>
 <li>記述はhtml5</li>
 <li>利用しないjsは削除する</li>
 <li>初期状態ではid=`Wrapper`がセット</li>
