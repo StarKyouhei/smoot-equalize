@@ -1,24 +1,4 @@
-<<<<<<< HEAD
 <h1>HTML 初期セット</h1>
-<dl>
-<dt>JavaScript</dt>
-<dd>
-<ul>
-<li>jQuery</li>
-<li>three.js</li>
-<li>less.js</li>
-<li>modernizr.js</li>
-<li>html5.js</li>
-<li>excanvas.js</li>
-</ul>
-</dd>
-<dt>CSS</dt>
-<dd>
-<ul>
-<li>YUI RESET CSS</li>
-</ul>
-</dd>
-</dl>
 <h2>内容</h2>
 <dl>
 <dd>
@@ -44,9 +24,23 @@
 </ul>
 </dd>
 </dl>
-=======
-init
-====
-
-html init
->>>>>>> 48944391e4663fe4d2baf608f835213785135336
+<h2>ライブラリー関連</h2>
+<dl>
+<dt>JavaScript</dt>
+<dd>
+<ul>
+<li>jQuery</li>
+<li>three.js</li>
+<li>less.js</li>
+<li>modernizr.js</li>
+<li>html5.js</li>
+<li>excanvas.js</li>
+</ul>
+</dd>
+<dt>CSS</dt>
+<dd>
+<ul>
+<li>YUI RESET CSS</li>
+</ul>
+</dd>
+</dl>
