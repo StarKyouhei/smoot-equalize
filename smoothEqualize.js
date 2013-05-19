@@ -28,7 +28,7 @@ jQuery(function($) {
                         $wrap.animate({scrollTop:0},duration);
                         break;
                     default :
-                        var distance = $(myref).offset().top;
+                        var distance = $(myref).offset().top,
                             duration = Math.floor(distance/Math.floor(distance/Math.floor(distance/level)));
                         $wrap.animate({scrollTop:distance},duration);
                         break;
