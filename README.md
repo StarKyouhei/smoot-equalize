@@ -7,7 +7,7 @@
 <code>
 &lt;a href="#" class="scroll"&gt;Topへ戻る&lt;/a&gt;
 &lt;a href="#sec1" class="scroll"&gt;ID sec1へ&lt;/a&gt;
-"</code>
+</code>
 </pre>
 <h3>JavaScript</h3>
 <p>jquery.smoothEqualize.jsを読み込んで下記の様に指定</p>
