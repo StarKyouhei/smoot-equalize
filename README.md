@@ -4,8 +4,10 @@
 <h3>HTML</h3>
 <p>href属性にスクロール先のIDを指定（"#"のみの場合はトップへ)</p>
 <pre>
+<code>
 <a href="#" class="scroll">Topへ戻る</a>
 <a href="#sec1" class="scroll">ID sec1へ</a>
+</code>
 </pre>
 <h3>JavaScript</h3>
 <p>jquery.smoothEqualize.jsを読み込んで下記の様に指定</p>
