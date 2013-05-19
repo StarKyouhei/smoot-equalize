@@ -1,47 +1,21 @@
-<h1>HTML 初期セット</h1>
-<h2>内容</h2>
-<dl>
-<dd>
-<dt>HTML<dt>
-<ul>
-<li>文字コードはUTF-8</li>
-<li>記述はhtml5</li>
-<li>利用しないjsは削除する</li>
-<li>初期状態ではid=`Wrapper`がセット</li>
-</ul>
-</dd>
-<dd>
-<dt>CSS<dt>
-<ul>
-<li>YUIでリセット</li>
-<li>less.jsを利用</li>
-</ul>
-</dd>
-<dd>
-<dt>JavaScript<dt>
-<ul>
-<li>jsフォルダのmain.jsに記述</li>
-<li>main.jsはjQeryでロード</li>
-</ul>
-</dd>
-</dl>
-<h2>ライブラリー関連</h2>
-<dl>
-<dt>JavaScript</dt>
-<dd>
-<ul>
-<li>jQuery</li>
-<li>three.js</li>
-<li>less.js</li>
-<li>modernizr.js</li>
-<li>html5.js</li>
-<li>excanvas.js</li>
-</ul>
-</dd>
-<dt>CSS</dt>
-<dd>
-<ul>
-<li>YUI RESET CSS</li>
-</ul>
-</dd>
-</dl>
+<h1>JQuery Smooth Scroll Equalize</h1>
+<p>プラグインにするほどでもない、均等なスピードで移動するスムーズスクロール jQuery プラグイン</p>
+<h2>使い方</h2>
+<h3>HTML</h3>
+<p>href属性にスクロール先のIDを指定（"#"のみの場合はトップへ)</p>
+<pre>
+<a href="#" class="scroll">Topへ戻る</a>
+<a href="#sec1" class="scroll">ID sec1へ</a>
+</pre>
+<h3>JavaScript</h3>
+<p>jquery.smoothEqualize.jsを読み込んで下記の様に指定</p>
+<pre>
+$('.scroll').smoothEqualize();
+</pre>
+<h3>オプション</h3>
+<p>オプションはスピードをコントロールする数値のみです。<br>数値が低ければゆっくり移動します。デフォルトは"6"です。<br>（イージングオプションもついていません。。。）</p>
+<pre>
+$('.scroll').smoothEqualize(2);
+</pre>
+<h2>ライセンス</h2>
+<p><a href="http://opensource.org/licenses/mit-license.php">MIT License.</a></p>
