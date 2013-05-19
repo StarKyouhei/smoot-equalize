@@ -5,8 +5,8 @@
 <p>href属性にスクロール先のIDを指定（"#"のみの場合はトップへ)</p>
 <pre>
 <code>
-"<a href="#" class="scroll">Topへ戻る</a>
-<a href="#sec1" class="scroll">ID sec1へ</a>
+&lt;a href="#" class="scroll"&gt;Topへ戻る&lt;/a&gt;
+&lt;a href="#sec1" class="scroll"&gt;ID sec1へ&lt;/a&gt;
 "</code>
 </pre>
 <h3>JavaScript</h3>
